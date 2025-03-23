@@ -14,7 +14,19 @@ def ascii_converter(text):
         21: 'Negative Acknowledge (NAK)', 22: 'Synchronous Idle (SYN)', 23: 'End of Transmission Block (ETB)',
         24: 'Cancel (CAN)', 25: 'End of Medium (EM)', 26: 'Substitute (SUB)', 27: 'Escape (ESC)',
         28: 'File Separator (FS)', 29: 'Group Separator (GS)', 30: 'Record Separator (RS)',
-        31: 'Unit Separator (US)', 127: 'Delete (DEL)'
+        31: 'Unit Separator (US)', 127: 'Delete (DEL)',
+         # Extended ASCII controls (128-159)
+        128: 'Padding Character (PAD)', 129: 'High Octet Preset (HOP)', 130: 'Break Permitted Here (BPH)',
+        131: 'No Break Here (NBH)', 132: 'Index (IND)', 133: 'Next Line (NEL)', 134: 'Start of Selected Area (SSA)',
+        135: 'End of Selected Area (ESA)', 136: 'Horizontal Tab Set (HTS)', 137: 'Horizontal Tab Justify (HTJ)',
+        138: 'Vertical Tab Set (VTS)', 139: 'Partial Line Down (PLD)', 140: 'Partial Line Up (PLU)',
+        141: 'Reverse Line Feed (RI)', 142: 'Single-Shift 2 (SS2)', 143: 'Single-Shift 3 (SS3)',
+        144: 'Device Control String (DCS)', 145: 'Private Use 1 (PU1)', 146: 'Private Use 2 (PU2)',
+        147: 'Set Transmit State (STS)', 148: 'Cancel Character (CCH)', 149: 'Message Waiting (MW)',
+        150: 'Start of Protected Area (SPA)', 151: 'End of Protected Area (EPA)', 152: 'Start of String (SOS)',
+        153: 'Single Graphic Char Intro (SGCI)', 154: 'Single Character Intro (SCI)', 155: 'Control Sequence Intro (CSI)',
+        156: 'String Terminator (ST)', 157: 'Operating System Command (OSC)', 158: 'Privacy Message (PM)',
+        159: 'Application Program Command (APC)'
     }
     
     while True:
